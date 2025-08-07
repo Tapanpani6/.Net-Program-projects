@@ -1,0 +1,14 @@
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/bin/Debug/net8.0/C#practice
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/bin/Debug/net8.0/C#practice.deps.json
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/bin/Debug/net8.0/C#practice.runtimeconfig.json
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/bin/Debug/net8.0/C#practice.dll
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/bin/Debug/net8.0/C#practice.pdb
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.AssemblyInfoInputs.cache
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.AssemblyInfo.cs
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.csproj.CoreCompileInputs.cache
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.dll
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/refint/C#practice.dll
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.pdb
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.genruntimeconfig.cache
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/ref/C#practice.dll
