@@ -12,3 +12,4 @@
 /Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.pdb
 /Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.genruntimeconfig.cache
 /Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/ref/C#practice.dll
+/Users/tapanpanigrahi/Downloads/C#Programs/C#practice/obj/Debug/net8.0/C#practice.sourcelink.json

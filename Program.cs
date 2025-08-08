@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Immutable;
 using System.Diagnostics.Tracing;
+using System.Security.Cryptography;
 
 class Program
 {
@@ -39,7 +40,9 @@ class Program
         //p.PrintStarPattern();
         //p.PrintFullStarPattern();
         //p.RemoveDuplicateNum();
-        p.PrimeOneToTen();
+        //p.PrimeOneToTen();
+        Person pr = new Person("Tapan",27,9123364474L);
+        pr.display();
 
     }
     public void fibonacci()
@@ -381,11 +384,29 @@ class Program
             }
             if (count == 2)
             {
-                Console.Write(num+",");
+                Console.Write(num + ",");
                 totalcount++;
             }
         }
-        Console.WriteLine(" and total count is "+totalcount);
-
+        Console.WriteLine(" and total count is " + totalcount);
     }
+    class Person
+    {
+        string Name;
+        int Age;
+        long Phone;
+        public Person(string Name, int Age, long Phone)
+        {
+            this.Name = Name;
+            this.Age = Age;
+            this.Phone = Phone;
+        }
+        public void display()
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine(Age);
+            Console.WriteLine(Phone);
+        }
+    }
+    
 }
