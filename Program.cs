@@ -41,8 +41,10 @@ class Program
         //p.PrintFullStarPattern();
         //p.RemoveDuplicateNum();
         //p.PrimeOneToTen();
-        Person pr = new Person("Tapan",27,9123364474L);
-        pr.display();
+        //Person pr = new Person("Tapan", 27, 9123364474L);
+        //pr.display();
+        //p.char_Occurance();
+        p.Number_Occurance();
 
     }
     public void fibonacci()
@@ -253,12 +255,14 @@ class Program
         a = a.ToLower();
         char[] x = a.ToCharArray();
         Array.Sort(x);
+        string A = new string(x);
 
         b = b.ToLower();
         char[] y = b.ToCharArray();
         Array.Sort(y);
+        string B = new string(y);
 
-        if (x.Length == y.Length)
+        if (A == B)
         {
             Console.WriteLine("Both the strings are Anagram");
         }
@@ -406,6 +410,48 @@ class Program
             Console.WriteLine(Name);
             Console.WriteLine(Age);
             Console.WriteLine(Phone);
+        }
+    }
+    public void char_Occurance()
+    {
+        string str = "AutomationTesting".ToLower();
+        string res = string.Empty;
+        for (int i = 0; i <= str.Length - 1; i++)
+        {
+            if (!res.Contains(str[i]))
+            {
+                int count = 0;
+                for (int j = 0; j <= str.Length - 1; j++)
+                {
+                    if (str[j] == str[i])
+                    {
+                        count++;
+                    }
+                }
+                Console.WriteLine(str[i] + " --> " + count + " times");
+                res = res + str[i];
+            }
+        }
+    }
+    public void Number_Occurance()
+    {
+        int[] str = {1,2,3,2,3,4,5};
+        string res = string.Empty;
+        for (int i = 0; i <= str.Length - 1; i++)
+        {
+            if (!res.Contains(str[i].ToString()))
+            {
+                int count = 0;
+                for (int j = 0; j <= str.Length - 1; j++)
+                {
+                    if (str[j] == str[i])
+                    {
+                        count++;
+                    }
+                }
+                Console.WriteLine(str[i] + " --> " + count + " times");
+                res = res + str[i].ToString();
+            }
         }
     }
     
